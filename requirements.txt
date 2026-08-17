@@ -1,0 +1,4 @@
+tinytroupe #install via github
+tiktoken
+python-dotenv
+pandas
