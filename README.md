@@ -47,6 +47,7 @@ Across 5 independent experimental runs ($N=560$ trials):
 ├── mbti_phishing_attacker.py # Attacker agent generating Cialdini email vectors
 ├── mbti_phishing_victim.py   # Victim agent evaluation and trial isolation logic
 ├── phishing_simulation.py    # Main orchestration runner and analytics exporter
+├── reasoning_pattern.py      # Topic modeling on reasoning
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Repository documentation
 
