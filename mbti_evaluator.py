@@ -45,72 +45,16 @@ class TestResult:
 
 QUESTIONS: List[Question] = [
     # ── Extraversion / Introversion (E/I) ─────
-    Question(1,  "I feel energized after spending time in a group.",                             "EI", +1),
-    Question(2,  "I prefer working in a lively environment with many people around.",             "EI", +1),
-    Question(3,  "I easily initiate conversations with people I don't know.",                      "EI", +1),
-    Question(4,  "I enjoy being the center of attention in social situations.",                    "EI", +1),
-    Question(5,  "After a long social day, I feel charged and satisfied.",                         "EI", +1),
-    Question(6,  "I think better by reasoning out loud with someone.",                            "EI", +1),
-    Question(7,  "I need moments of solitude to recharge.",                                       "EI", -1),
-    Question(8,  "I prefer deep exchanges with a few people over light conversation with many.",   "EI", -1),
-    Question(9,  "I find large social gatherings exhausting.",                                     "EI", -1),
-    Question(10, "I process my ideas internally before sharing them.",                             "EI", -1),
-    Question(11, "I like having a lot of personal space and alone time.",                            "EI", -1),
-    Question(12, "I prefer communicating in writing rather than in person.",                      "EI", -1),
-    Question(13, "I find participating in events with many people stimulating.",                  "EI", +1),
-    Question(14, "I tend to reflect for a long time before making a decision.",                   "EI", -1),
-    Question(15, "I get bored easily if I am alone for too long.",                               "EI", +1),
+    #15 questions ispired by MBTI official test
 
     # ── Sensing / Intuition (S/N) ──────────────
-    Question(16, "I prefer concrete and detailed instructions rather than general guidelines.",     "SN", +1),
-    Question(17, "I trust facts and direct experience the most.",                                 "SN", +1),
-    Question(18, "I pay attention to practical details in everyday situations.",                  "SN", +1),
-    Question(19, "I prefer proven and safe solutions over innovative ones.",                       "SN", +1),
-    Question(20, "I easily remember specific facts and concrete data.",                           "SN", +1),
-    Question(21, "I focus more on the present than on future scenarios.",                          "SN", +1),
-    Question(22, "I am fascinated by abstract theories and original ideas.",                       "SN", -1),
-    Question(23, "I like imagining future possibilities even when they seem unlikely.",             "SN", -1),
-    Question(24, "I find metaphors and symbols to be a powerful way of communicating.",           "SN", -1),
-    Question(25, "I often think about connections between seemingly distant concepts.",          "SN", -1),
-    Question(26, "I prefer exploring the 'big picture' rather than individual details.",           "SN", -1),
-    Question(27, "I get bored easily with repetitive and routine tasks.",                          "SN", -1),
-    Question(28, "I follow instructions step-by-step without skipping parts.",                    "SN", +1),
-    Question(29, "I am drawn more to intuition than to systematic analysis.",                     "SN", -1),
-    Question(30, "I value traditions that have been established over time.",                       "SN", +1),
+    #15 questions ispired by MBTI official test
 
     # ── Thinking / Feeling (T/F) ───────────────
-    Question(31, "When making important decisions, I rely primarily on logic and data.",          "TF", +1),
-    Question(32, "I can criticize others' work without worrying about causing offense.",          "TF", +1),
-    Question(33, "I believe logical consistency is more important than social harmony.",          "TF", +1),
-    Question(34, "I find honest feedback more useful than diplomatic feedback.",                  "TF", +1),
-    Question(35, "I make decisions objectively, even on emotionally charged topics.",             "TF", +1),
-    Question(36, "I evaluate ideas based on their objective merit, not on who proposes them.",    "TF", +1),
-    Question(37, "I consider the emotional impact of my words before speaking.",                  "TF", -1),
-    Question(38, "The well-being of the people involved is central to my choices.",               "TF", -1),
-    Question(39, "I prefer to maintain group harmony even at the cost of compromise.",            "TF", -1),
-    Question(40, "I get easily moved by touching stories.",                                       "TF", -1),
-    Question(41, "I often make decisions based on what I feel is right.",                         "TF", -1),
-    Question(42, "I put human relationships first ahead of efficiency.",                          "TF", -1),
-    Question(43, "Debating and arguing is a healthy way to find the truth.",                      "TF", +1),
-    Question(44, "It bothers me when people make decisions based too much on emotion.",           "TF", +1),
-    Question(45, "I always try to understand the emotional point of view of others.",             "TF", -1),
-
+    #15 questions ispired by MBTI official test
+    
     # ── Judging / Perceiving (J/P) ────────────
-    Question(46, "I prefer to have a clear plan before starting a project.",                       "JP", +1),
-    Question(47, "I like to keep my schedule organized and meet deadlines.",                      "JP", +1),
-    Question(48, "I feel uncomfortable when things are uncertain or unplanned.",                   "JP", +1),
-    Question(49, "I complete tasks well ahead of the deadline.",                                  "JP", +1),
-    Question(50, "I prefer making final decisions rather than leaving options open.",            "JP", +1),
-    Question(51, "I keep my workspace neat and organized.",                                       "JP", +1),
-    Question(52, "I easily adapt to last-minute changes.",                                        "JP", -1),
-    Question(53, "I prefer being spontaneous rather than following a fixed schedule.",            "JP", -1),
-    Question(54, "I find dealing with unexpected situations exciting.",                           "JP", -1),
-    Question(55, "I tend to postpone decisions to gather more information.",                      "JP", -1),
-    Question(56, "I work better under pressure close to the deadline.",                           "JP", -1),
-    Question(57, "I like leaving options open for as long as possible.",                          "JP", -1),
-    Question(58, "I follow daily lists and routines to manage my day.",                           "JP", +1),
-    Question(59, "Once I make a decision, I rarely question it again.",                           "JP", +1),
-    Question(60, "I find changing plans at the last minute annoying.",                            "JP", +1),
+    #15 questions ispired by MBTI official test
 ]
 
 
